@@ -1,0 +1,45 @@
+.error-message, .success-message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success-message {
+  background-color: lightgreen;
+}
+
+.error-message {
+  background-color: orangered;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #3498db;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-color: #3498db;
+  background-color: purple;
+}
+main .box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #3498db;
+}
+
+/*# sourceMappingURL=main.css.map */

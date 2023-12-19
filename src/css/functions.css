@@ -1,0 +1,15 @@
+.error-message, .success-message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success-message {
+  background-color: lightgreen;
+}
+
+.error-message {
+  background-color: orangered;
+}
+
+/*# sourceMappingURL=functions.css.map */

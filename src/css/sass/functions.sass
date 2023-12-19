@@ -1,0 +1,21 @@
+$primary-color: #3498db
+$font-stack: 'Arial', sans-serif
+$radius: 5px
+
+@mixin border-radius($radius)
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+    border-radius: $radius
+
+%message-shared
+    border: 1px solid #ccc
+    padding: 10px
+    color: #333
+
+.success-message
+    @extend %message-shared
+    background-color: lightgreen
+
+.error-message
+    @extend %message-shared
+    background-color: orangered

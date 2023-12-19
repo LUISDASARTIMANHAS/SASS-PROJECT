@@ -1,0 +1,29 @@
+@import "./functions"
+
+nav
+    ul
+        margin: 0
+        padding: 0
+        list-style: none
+
+        li
+            display: inline-block
+            margin-right: 10px
+
+            a
+                text-decoration: none
+                color: $primary-color
+
+                &:hover
+                    text-decoration: underline
+
+main
+    font:
+        family: $font-stack
+        size: 16px
+        color: $primary-color
+    background-color: purple
+
+    .box
+        @include border-radius(10px)
+        background-color: $primary-color
